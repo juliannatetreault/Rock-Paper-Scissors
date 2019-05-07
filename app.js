@@ -21,17 +21,17 @@ function convertToWord(letter) {
 }
 
 function win(userChoice, computerChoice) {
-    computerScore++;
-    userScoreSpan.innerHTML = userScore;
-    computerScoreSpan.innerHTML = computerScore;
-    resultP.innerHTML = `${convertToWord(userChoice)} loses to ${convertToWord(computerChoice)}. You lost.`;
-}
-
-function lose(userChoice, computerChoice) {
     userScore++;
     userScoreSpan.innerHTML = userScore;
     computerScoreSpan.innerHTML = computerScore;
     resultP.innerHTML = `${convertToWord(userChoice)} beats ${convertToWord(computerChoice)}. You win!`;
+}
+
+function lose(userChoice, computerChoice) {
+    computerScore++;
+    userScoreSpan.innerHTML = userScore;
+    computerScoreSpan.innerHTML = computerScore;
+    resultP.innerHTML = `${convertToWord(computerChoice)} beats ${convertToWord(userChoice)}. You lose.`;
 }
 
 function draw(userChoice, computerChoice) {
