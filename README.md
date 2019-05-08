@@ -1,5 +1,5 @@
 # Rock-Paper-Scissors
-A dynamic Rock, Paper, Scissors game built using HTML, CSS, and JavaScript.
+A dynamic Rock, Paper, Scissors remake courtesy of freecodecamp (https://www.youtube.com/watch?v=jaVNP3nIAv0).
 
 ### Technology
 - HTML
